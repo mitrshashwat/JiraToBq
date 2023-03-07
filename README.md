@@ -2,6 +2,7 @@
 This python script is sending data from Jira API to BigQuery in Google cloud
 
 #Requirements
+- Genrate JIRA api token of a user which has overall read access of all projects
 - Install google-cloud-bigquery and json package in pip3
 - Either machine you are deploying script on should have BigQuery write Access or you can use Credentials of a service account via google-cloud-sdk to insert into BQ(refer this article:https://cloud.google.com/docs/authentication/application-default-credentials)
 - Create a dataset with desired schema and use it in 'dataset_id' variable
